@@ -88,6 +88,21 @@ a:active  {color: #33ccff;}
 <img src="3d printer.jpg" alt="3d printer"width="250" height="188.5">
   <p>computer</p>
 <img src="computer out side.jpg" alt="3d printer"width="250" height="315"><br>
+	
+	<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.464178, -0.888411),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 <input id="txtUsername" class="username" placeholder="Username"><br>
 <input id="txtPassword" class="password" placeholder="Password"><br>
