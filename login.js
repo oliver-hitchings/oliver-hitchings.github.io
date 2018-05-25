@@ -5,9 +5,7 @@
 
   buttonLogin.addEventListener('click', e => {
     if ((txtUsername.value.toLowerCase() == "admin") && (txtPassword.value == "password")) {
-      window.location.replace("/login/oli.html")
-    } else if ((txtUsername.value.toLowerCase() == "admin") && (txtPassword.value == "password")) {
-      window.location.replace("/login/daniel.html")
+      window.location.replace("/login/login.html")
     } else {
       alert("Invalid Credentials")
     }
