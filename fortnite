@@ -1,0 +1,19 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+  <div class = title>
+    <h1>Fortnite Choose Your Own Adventure!</h1>
+    <p>In this game, you will make descisions based on the popular battle royale game Fortnite. Your goal is to be the Victor Royale!</p>
+  </div>
+  <div class = game>
+    <img id = game-img src="https://cdn2.unrealengine.com/Fortnite%2Fblog%2F1-7-1-patch-notes%2FMiniMapAthena-2048x2048-257033270bfbd1f8bd239d3fc98dd2a6438e85e4.jpg">
+    <p id = scenario>You are about to drop from the battle bus. You can land on any of the major zones.</p>
+    <p id = button-title>What will you do?</p>
+    <input type = "text" id = choice value = "Enter Choice"></input>     <br>
+    <button id = submit>Proceed</button>
+    <br>
+    <button id = retry>Play Again</button>
+  </div>
+</body>
+ 
